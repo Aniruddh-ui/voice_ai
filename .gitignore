@@ -1,0 +1,28 @@
+# ── Secrets ───────────────────────────────────────────────────────────────────
+.env
+
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# ── Runtime data (generated at runtime, not source code) ─────────────────────
+data/audio/
+data/uploads/
+data/vector_store/
+data/conversations/
+
+# ── IDE / OS ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Personal notes (not part of the project) ─────────────────────────────────
+user.txt
+userp2.txt
+*.txt
